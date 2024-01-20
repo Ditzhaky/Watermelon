@@ -1,0 +1,134 @@
+html{padding: 50px;}
+#pros{
+    background-color: red;
+}
+#cons{
+    background-color: green;
+}
+#Nutritionalvalue {
+    background-color: rgba(255, 0, 0, 0.799);
+}
+header nav {background-color: green;
+color: crimson;}
+header h1{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green; 
+    background-color: red; 
+}
+header a {
+    font-size: x-large;
+}
+
+footer a{
+    color: green;
+    background-color: red;
+}  
+
+
+
+.sections img {
+    width: 100px;
+    height: 100px;
+}
+.sections p {text-align: center;}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: green;
+    width: 320px;
+    height: 200px; 
+}
+
+
+.card2 {
+    background-color:red;
+    width: 320px;
+    height: 200px;    
+}
+ .card2 img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 180px;
+    min-height: 100px;
+    margin-bottom: 0;
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 180px;
+    min-height: 100px;
+    margin-bottom: 0;
+}
+footer {
+    background-image: url('https://www.haifa.ac.il/wp-content/uploads/2020/03/info_systems.jpg');
+    background-size: cover; 
+    background-position: center;
+    font-size: 25px;
+}
+#summary  {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    font-style: oblique;
+    background-color: green;
+}
+
+.card,
+.card2 {
+    background-color: transparent; 
+    opacity: 0; 
+    margin: 10px;
+    width: 320px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+.container:hover .card2 {
+    background-color: red;
+    opacity: 1; 
+    color: white; 
+    transition: 0.8s;
+}
+.container:hover .card{
+    background-color:green;
+    opacity: 1; 
+    color: white; 
+    transition: 0.8s; 
+}
+
+.container:hover .card img,
+.container:hover .card2 img {
+    filter: brightness(70%); 
+    transition: 1s;
+}
+
+p {font-size: 20px;}
+
+
+
+
+
+
+       
+        
+        
+       
+        
+    
+       
+   
+     
+
+       
